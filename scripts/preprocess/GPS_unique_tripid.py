@@ -3,7 +3,7 @@ import pandas as pd
 from pathlib import Path
 
 input_folder = Path("C:/Users//user/GPSDataFolder")
-output_folder = Path("C:/Users/jalis/user/shareFolder")
+output_folder = Path("C:/Users/user/shareFolder")
 output_folder.mkdir(parents=True, exist_ok=True)
 
 summary_path = output_folder / "summary_unique_tripid.csv"
